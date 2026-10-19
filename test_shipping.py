@@ -1,6 +1,6 @@
 import pytest
 from shipping import shipping_fee
-@pytest.mark.parametrize("weight, expected", [
+@pytest.mark.parametrize("weight, expected_fee", [
     (0.5, 40),    # Rule 2: inside
     (3, 60),      # Rule 3: inside
     (1.01, 60),   # Rule 3: just above 1 kg
