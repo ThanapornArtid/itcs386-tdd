@@ -20,3 +20,4 @@ class BankAccount:
 
     def add_interest(self, rate):
         self.balance = self.balance * (1 + rate)
+    
