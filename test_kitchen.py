@@ -8,7 +8,7 @@
 # [ ] 200 g + 1 oz, reduced to grams, using a conversion rate
 # [ ] (200 g + 1 oz) x 2
 
-from kitchen import Quantity
+from kitchen import Quantity, grams, ounces
 
 
 def test_multiplication():
