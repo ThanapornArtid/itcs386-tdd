@@ -6,6 +6,9 @@ class Quantity:
 
     def times(self, multiplier):
         return Quantity(self.amount * multiplier, self.unit)
+    
+    def reduce(self, unit):
+        return self
 
     def plus(self, addend):
         return Sum(self, addend)
